@@ -1,22 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import sunshine from "./sunshine.jpeg";
+import moon from "./moonStars.jpeg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="flex gap-y-4">
+          <div className="flex flex-row">
+            <img src={sunshine} className="App-logo" alt="sun" />
+            <img src={moon} className="App-logo" alt="moon" />
+          </div>
+          <p>Welcome to DFPR's World!</p>
+        </div>
       </header>
     </div>
   );
