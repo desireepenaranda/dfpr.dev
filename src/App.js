@@ -5,16 +5,18 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="flex gap-y-4">
-          <div className="flex flex-row">
-            <img src={sunshine} className="App-logo" alt="sun" />
-            <img src={moon} className="App-logo" alt="moon" />
-          </div>
-          <p>Welcome to DFPR's World!</p>
-          <p> Its also Ms. PPPPPPP website!</p>
-        </div>
-      </header>
+      <img className="sun" src={sunshine} alt="sun" />
+      <h3>
+        <span>D</span>
+        <span>F</span>
+        <span>P</span>
+        <span>R</span>
+      </h3>
+      <p> Girl Who</p>
+      <p className="keyWords">
+        <span>Codes</span> | <span>Creates</span> | <span>Empowers</span> |{" "}
+        <span>Inspires</span> | <span>Dreams</span>
+      </p>
     </div>
   );
 }
